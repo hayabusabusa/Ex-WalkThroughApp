@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mIY-rN-a2r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Third View Controller-->
+        <scene sceneID="25U-Xd-ell">
+            <objects>
+                <viewController id="mIY-rN-a2r" customClass="ThirdViewController" customModule="WalkthroughApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5F3-Fc-7KC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_share" translatesAutoresizingMaskIntoConstraints="NO" id="Gzi-Pn-90V">
+                                <rect key="frame" x="0.0" y="228" width="414" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="cs3-tn-sKl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活動をSNSでシェア" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvk-b3-yBt">
+                                <rect key="frame" x="16" y="412" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgj-43-hCj">
+                                <rect key="frame" x="16" y="457" width="382" height="50.5"/>
+                                <string key="text">アプリで記録した情報は
+Twitter、Facebookなどの SNSで共有することができます。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4z-aa-DOA">
+                                <rect key="frame" x="40" y="808" width="31" height="30"/>
+                                <state key="normal" title="前へ">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapBackButton:" destination="mIY-rN-a2r" eventType="touchUpInside" id="hsA-W4-I8Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="c4z-aa-DOA" firstAttribute="leading" secondItem="HIv-sg-JaV" secondAttribute="leading" constant="40" id="CaD-lC-quk"/>
+                            <constraint firstItem="fgj-43-hCj" firstAttribute="top" secondItem="Qvk-b3-yBt" secondAttribute="bottom" constant="24" id="Edb-Ue-Ff1"/>
+                            <constraint firstItem="Gzi-Pn-90V" firstAttribute="centerY" secondItem="5F3-Fc-7KC" secondAttribute="centerY" constant="-140" id="G9a-nn-yc9"/>
+                            <constraint firstItem="HIv-sg-JaV" firstAttribute="trailing" secondItem="Gzi-Pn-90V" secondAttribute="trailing" id="JaO-8e-mky"/>
+                            <constraint firstItem="HIv-sg-JaV" firstAttribute="trailing" secondItem="Qvk-b3-yBt" secondAttribute="trailing" constant="16" id="K2M-Fu-M67"/>
+                            <constraint firstItem="fgj-43-hCj" firstAttribute="leading" secondItem="HIv-sg-JaV" secondAttribute="leading" constant="16" id="M1g-7l-FWB"/>
+                            <constraint firstItem="HIv-sg-JaV" firstAttribute="trailing" secondItem="fgj-43-hCj" secondAttribute="trailing" constant="16" id="N6x-a2-Y8C"/>
+                            <constraint firstItem="Qvk-b3-yBt" firstAttribute="top" secondItem="Gzi-Pn-90V" secondAttribute="bottom" constant="24" id="Pei-K9-3cj"/>
+                            <constraint firstItem="Gzi-Pn-90V" firstAttribute="leading" secondItem="HIv-sg-JaV" secondAttribute="leading" id="QaN-si-89m"/>
+                            <constraint firstItem="Qvk-b3-yBt" firstAttribute="leading" secondItem="HIv-sg-JaV" secondAttribute="leading" constant="16" id="eXB-YC-ZGr"/>
+                            <constraint firstItem="HIv-sg-JaV" firstAttribute="bottom" secondItem="c4z-aa-DOA" secondAttribute="bottom" constant="24" id="pJ5-GI-Xr9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HIv-sg-JaV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wwz-DI-eJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="-359"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_share" width="512" height="512"/>
+    </resources>
+</document>
