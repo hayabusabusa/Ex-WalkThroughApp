@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A487ED8022A656AB00EC20D1 /* WalkthroughAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487ED7F22A656AB00EC20D1 /* WalkthroughAppUITests.swift */; };
 		A494D8FF22A4C4DC00A9DD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494D8FE22A4C4DC00A9DD33 /* AppDelegate.swift */; };
 		A494D90122A4C4DC00A9DD33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494D90022A4C4DC00A9DD33 /* ViewController.swift */; };
 		A494D90422A4C4DC00A9DD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A494D90222A4C4DC00A9DD33 /* Main.storyboard */; };
@@ -24,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A487ED8222A656AB00EC20D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A494D8F322A4C4DC00A9DD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A494D8FA22A4C4DC00A9DD33;
+			remoteInfo = WalkthroughApp;
+		};
 		A494D91022A4C4DE00A9DD33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A494D8F322A4C4DC00A9DD33 /* Project object */;
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A487ED7D22A656AB00EC20D1 /* WalkthroughAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkthroughAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A487ED7F22A656AB00EC20D1 /* WalkthroughAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughAppUITests.swift; sourceTree = "<group>"; };
+		A487ED8122A656AB00EC20D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A494D8FB22A4C4DC00A9DD33 /* WalkthroughApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkthroughApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A494D8FE22A4C4DC00A9DD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A494D90022A4C4DC00A9DD33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A487ED7A22A656AB00EC20D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A494D8F822A4C4DC00A9DD33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,11 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A487ED7E22A656AB00EC20D1 /* WalkthroughAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A487ED7F22A656AB00EC20D1 /* WalkthroughAppUITests.swift */,
+				A487ED8122A656AB00EC20D1 /* Info.plist */,
+			);
+			path = WalkthroughAppUITests;
+			sourceTree = "<group>";
+		};
 		A494D8F222A4C4DC00A9DD33 = {
 			isa = PBXGroup;
 			children = (
 				A494D8FD22A4C4DC00A9DD33 /* WalkthroughApp */,
 				A494D91222A4C4DE00A9DD33 /* WalkthroughAppTests */,
+				A487ED7E22A656AB00EC20D1 /* WalkthroughAppUITests */,
 				A494D8FC22A4C4DC00A9DD33 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +114,7 @@
 			children = (
 				A494D8FB22A4C4DC00A9DD33 /* WalkthroughApp.app */,
 				A494D90F22A4C4DE00A9DD33 /* WalkthroughAppTests.xctest */,
+				A487ED7D22A656AB00EC20D1 /* WalkthroughAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +192,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A487ED7C22A656AB00EC20D1 /* WalkthroughAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A487ED8622A656AB00EC20D1 /* Build configuration list for PBXNativeTarget "WalkthroughAppUITests" */;
+			buildPhases = (
+				A487ED7922A656AB00EC20D1 /* Sources */,
+				A487ED7A22A656AB00EC20D1 /* Frameworks */,
+				A487ED7B22A656AB00EC20D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A487ED8322A656AB00EC20D1 /* PBXTargetDependency */,
+			);
+			name = WalkthroughAppUITests;
+			productName = WalkthroughAppUITests;
+			productReference = A487ED7D22A656AB00EC20D1 /* WalkthroughAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A494D8FA22A4C4DC00A9DD33 /* WalkthroughApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A494D91822A4C4DE00A9DD33 /* Build configuration list for PBXNativeTarget "WalkthroughApp" */;
@@ -208,6 +255,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Yamada Shunya";
 				TargetAttributes = {
+					A487ED7C22A656AB00EC20D1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A494D8FA22A4C4DC00A9DD33;
+					};
 					A494D8FA22A4C4DC00A9DD33 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -232,11 +283,19 @@
 			targets = (
 				A494D8FA22A4C4DC00A9DD33 /* WalkthroughApp */,
 				A494D90E22A4C4DE00A9DD33 /* WalkthroughAppTests */,
+				A487ED7C22A656AB00EC20D1 /* WalkthroughAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A487ED7B22A656AB00EC20D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A494D8F922A4C4DC00A9DD33 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +320,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A487ED7922A656AB00EC20D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A487ED8022A656AB00EC20D1 /* WalkthroughAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A494D8F722A4C4DC00A9DD33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,6 +352,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A487ED8322A656AB00EC20D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A494D8FA22A4C4DC00A9DD33 /* WalkthroughApp */;
+			targetProxy = A487ED8222A656AB00EC20D1 /* PBXContainerItemProxy */;
+		};
 		A494D91122A4C4DE00A9DD33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A494D8FA22A4C4DC00A9DD33 /* WalkthroughApp */;
@@ -312,6 +384,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A487ED8422A656AB00EC20D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = WalkthroughAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalkthroughAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkthroughApp;
+			};
+			name = Debug;
+		};
+		A487ED8522A656AB00EC20D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = WalkthroughAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalkthroughAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkthroughApp;
+			};
+			name = Release;
+		};
 		A494D91622A4C4DE00A9DD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -509,6 +619,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A487ED8622A656AB00EC20D1 /* Build configuration list for PBXNativeTarget "WalkthroughAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A487ED8422A656AB00EC20D1 /* Debug */,
+				A487ED8522A656AB00EC20D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A494D8F622A4C4DC00A9DD33 /* Build configuration list for PBXProject "WalkthroughApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
