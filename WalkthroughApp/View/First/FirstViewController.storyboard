@@ -24,15 +24,15 @@
                                     <constraint firstAttribute="height" constant="160" id="s0F-o2-1Bf"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="気になる画像を端末に保存" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qae-FU-sRv">
-                                <rect key="frame" x="16" y="412" width="382" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="気になる画像を端末に保存" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qae-FU-sRv">
+                                <rect key="frame" x="16" y="412" width="382" height="20.5"/>
                                 <accessibility key="accessibilityConfiguration" identifier="firstLabel"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWe-4J-cCn">
-                                <rect key="frame" x="16" y="457" width="382" height="50.5"/>
+                                <rect key="frame" x="16" y="456.5" width="382" height="50.5"/>
                                 <string key="text">気になる画像があればその場で保存。
 アプリを経由してお使いの端末に
 画像を保存することができます。</string>

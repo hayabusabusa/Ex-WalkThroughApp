@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A487ED8022A656AB00EC20D1 /* WalkthroughAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487ED7F22A656AB00EC20D1 /* WalkthroughAppUITests.swift */; };
+		A487ED8822A6651D00EC20D1 /* Springboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487ED8722A6651D00EC20D1 /* Springboard.swift */; };
 		A494D8FF22A4C4DC00A9DD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494D8FE22A4C4DC00A9DD33 /* AppDelegate.swift */; };
 		A494D90122A4C4DC00A9DD33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494D90022A4C4DC00A9DD33 /* ViewController.swift */; };
 		A494D90422A4C4DC00A9DD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A494D90222A4C4DC00A9DD33 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		A487ED7D22A656AB00EC20D1 /* WalkthroughAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkthroughAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A487ED7F22A656AB00EC20D1 /* WalkthroughAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughAppUITests.swift; sourceTree = "<group>"; };
 		A487ED8122A656AB00EC20D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A487ED8722A6651D00EC20D1 /* Springboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Springboard.swift; sourceTree = "<group>"; };
 		A494D8FB22A4C4DC00A9DD33 /* WalkthroughApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkthroughApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A494D8FE22A4C4DC00A9DD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A494D90022A4C4DC00A9DD33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		A487ED7E22A656AB00EC20D1 /* WalkthroughAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A487ED8722A6651D00EC20D1 /* Springboard.swift */,
 				A487ED7F22A656AB00EC20D1 /* WalkthroughAppUITests.swift */,
 				A487ED8122A656AB00EC20D1 /* Info.plist */,
 			);
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A487ED8022A656AB00EC20D1 /* WalkthroughAppUITests.swift in Sources */,
+				A487ED8822A6651D00EC20D1 /* Springboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
